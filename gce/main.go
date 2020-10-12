@@ -1,3 +1,5 @@
+// Bucket name: go-logging
+
 // So vm treats my code as executable program
 package main
 
