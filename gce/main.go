@@ -33,7 +33,7 @@ func main() {
 
   defer client.Close()
   // Sets name of log to write to
-  logger := client.Logger("local-log")
+  logger := client.Logger("gce-log")
 
   log.Print("hello world!")
   logger.Log(logging.Entry{Payload: "Hello world!"})
